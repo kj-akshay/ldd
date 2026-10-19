@@ -1,0 +1,1 @@
+savedcmd_log_levels.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-7.0.0-1020-raspi/scripts/module.lds -o log_levels.ko log_levels.o log_levels.mod.o .module-common.o
